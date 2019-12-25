@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:regular,bold,light&subset=latin,latin-ext');
+
+
+body, html {
+  font-family: Helvetica;
+}
+
+.content-container{ 
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content{ 
+  min-width: 500px;
+}
+
+.greeting-header {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.greeting-text {
+  width: 35vw;
+  font-size: 18px;
+}
+
+.about-points {
+  font-size: 18px;
+}
+
+.links-container {
+  margin-top: 30px;
+  display: flex; 
+  justify-content: center;
+}
+
+.links {
+  color: #828282;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  justify-content: space-evenly;
+}
+
+a.link-text {
+  color: #828282;
+  text-decoration: none;
+}
+
+a.link-text:hover {
+  color: black;
+}
+
+a.about-links {
+  color: black;
+  text-decoration: none;
+}
+
+.school{
+  font-weight: bold;
+  background-image: linear-gradient(rgba(59, 125, 161, 0.40), rgba(59, 125, 161, 0.40));
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  background-size: 100% 2.5px;
+  transition: background-size .2s ease-in .1s;
+}
+
+.school:hover {
+  transition: background-size .2s ease-in .1s;
+  background-size: 100% 100%;
+  background-position: 0% 100%;
+}
+
+.intern {
+  font-weight: bold; 
+  background-image: linear-gradient(rgba(255, 153, 0, 0.60), rgba(255, 153, 0, 0.60));
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  background-size: 100% 2.5px;
+  transition: background-size .2s ease-in .1s;
+}
+
+.intern:hover {
+  transition: background-size .2s ease-in .1s;
+  background-size: 100% 100%;
+  background-position: 0% 100%;
+}
+
+.codebase {
+  font-weight: bold; 
+  background-image: linear-gradient(rgba(47, 59, 121, 0.30), rgba(47, 59, 121, 0.30));
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  background-size: 100% 2.5px;
+  transition: background-size .2s ease-in .1s;
+}
+
+.codebase:hover {
+  transition: background-size .2s ease-in .1s;
+  background-size: 100% 100%;
+  background-position: 0% 100%;
+}
+
+.uma {
+  font-weight: bold; 
+  background-image: linear-gradient(rgba(255, 102, 51, 0.40),rgba(255, 102, 51, 0.40));
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  background-size: 100% 2.5px;
+  transition: background-size .2s ease-in .1s;
+}
+
+.uma:hover {
+  transition: background-size .2s ease-in .1s;
+  background-size: 100% 100%;
+  background-position: 0% 100%;
+}
+
+ul {
+  line-height: 150%;
+}
+
